@@ -31,10 +31,10 @@ public class PlayerLoaderService {
     @PostConstruct
     public void importPlayers() {
         List<Player> players = buildCsvPlayerByColumnName();
-        if (!players.isEmpty())
+        if (!players.isEmpty()){
             playerRepository.saveAll(players);
             LOGGER.info("INFO:import CSV file success [ players count = " + players.size() + "]");
-        else {
+        }else {
             LOGGER.info("INFO:Empty CSV file");
         }
     }
