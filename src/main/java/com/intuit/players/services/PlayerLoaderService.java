@@ -42,8 +42,9 @@ public class PlayerLoaderService {
         try {
             Reader reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
             CsvToBean<Player> csvToBean = new CsvToBeanBuilder<Player>(reader).withType(Player.class).build();
+            List<Player> parse = csvToBean.parse();
             reader.close();
-            return csvToBean.parse();
+            return parse;
         } catch (Exception e) {
             LOGGER.error("Error building players from CSV file: " + e);
             return Collections.emptyList();
