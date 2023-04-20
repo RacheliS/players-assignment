@@ -3,8 +3,7 @@
 
 <b>Introduction:</b><br/>
 welcome to my players Application :)   
-this application load data from csv file on load server after the initialization of bean properties 
-by @PostConstruct annotation &  provides  2 endpoint ,
+this application load data from csv resource file after the initialization of bean properties by @PostConstruct annotation & provides 2 endpoint .
 
 <br/>
  <b>Project's technologies:<br/></b>
@@ -38,8 +37,8 @@ by @PostConstruct annotation &  provides  2 endpoint ,
   ``` {"playerID":"aardsda01","birthYear":"1981","birthMonth":"12","birthDay":"27","birthCountry":"USA","birthState":"CO","birthCity":"Denver","deathYear":"","deathMonth":"","deathDay":"","deathCountry":"","deathState":"","deathCity":"","nameFirst":"David","nameLast":"Aardsma","nameGiven":"David Allan","weight":"215","height":"75","bats":"R","throwsType":"R","debut":"2004-04-06","finalGame":"2015-08-23","retroID":"aardd001","bbrefID":"aardsda01"}
   ```
   <br/><b>not exist player -  Response: (Status 400.Not Found) </b>
-  {"timestamp":"2023-04-20T07:18:18.087+00:00","status":404,"error":"Not Found","path":"/payments/services/getPayment/12354"}
-```
+   ```  {"timestamp":"2023-04-20T07:18:18.087+00:00","status":404,"error":"Not Found","path":"/payments/services/getPayment/12354"} ```
+
 	
 <b>** attach collection file to test api using Post man **</b>
 
