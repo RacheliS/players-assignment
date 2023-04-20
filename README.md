@@ -16,7 +16,6 @@ this application load data from csv resource file after the initialization of be
 •	H2database<br/>
 •	opencsv<br/>
 
-
 <br/>
 <b>To run the application: </b><br/>
   Run PlayersApplication <br/>
@@ -45,6 +44,7 @@ this application load data from csv resource file after the initialization of be
 • Run the Spring project in a containerized Java & Maven Docker environment.<br/>
 • Change db to noSql db like mongoDb .<br/>
 • Create Api with pagination option for large data.<br/>
+• Add Spring cloud eurka to our microservices enviorment.<br/>
 
 
 <b>** attach collection file to test api using Post man **</b>
