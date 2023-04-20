@@ -3,7 +3,7 @@
 
 <b>Introduction:</b><br/>
 welcome to my players Application :)   
-this application load data from csv resource file after the initialization of bean properties by @PostConstruct annotation & provides 2 endpoint .
+this application load data from csv resource file after the initialization of bean properties by @PostConstruct annotation & provides 2 endpoints .
 
 <br/>
  <b>Project's technologies:<br/></b>
