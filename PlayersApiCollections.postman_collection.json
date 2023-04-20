@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Get players by id not exist exmple",
+			"name": "Get players by id not exist example",
 			"request": {
 				"method": "GET",
 				"header": [],
