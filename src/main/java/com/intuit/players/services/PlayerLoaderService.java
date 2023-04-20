@@ -33,8 +33,9 @@ public class PlayerLoaderService {
         List<Player> players = buildCsvPlayerByColumnName();
         if (!players.isEmpty())
             playerRepository.saveAll(players);
+            LOGGER.info("INFO:import CSV file success [ players count = " + players.size() + "]");
         else {
-            LOGGER.info("Empty CSV file");
+            LOGGER.info("INFO:Empty CSV file");
         }
     }
 
@@ -46,7 +47,7 @@ public class PlayerLoaderService {
             reader.close();
             return parse;
         } catch (Exception e) {
-            LOGGER.error("Error building players from CSV file: " + e);
+            LOGGER.error("ERROR: building players from CSV file: " + e);
             return Collections.emptyList();
         }
     }
