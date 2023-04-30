@@ -42,9 +42,11 @@ this application load data from csv resource file after the initialization of be
 <br/>
 <b>What's Next? </b><br/>
 • Run the Spring project in a containerized Java & Maven Docker environment.<br/>
-• Change db to noSql db like mongoDb .<br/>
-• Create Api with pagination option for large data.<br/>
+• Change db to Sql db like My Sql .<br/>
+• Create Api with pagination option for big data.<br/>
 • Add Spring cloud eurka to our microservices enviorment.<br/>
+• Add Swagger for all endpoints.<br/>
+• Writing Aspect using Spring Aop for logging.<br/>
 
 
 <b>** attach collection file to test api using Post man **</b>
