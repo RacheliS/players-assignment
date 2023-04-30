@@ -46,7 +46,7 @@ this application load data from csv resource file after the initialization of be
 • Create Api with pagination option for big data.<br/>
 • Add Spring cloud eurka to our microservices enviorment.<br/>
 • Add Swagger for all endpoints.<br/>
-• Writing Aspect using Spring Aop for logging.<br/>
+• Writing Aspect for exceptions using Spring Aop.(monitor logs)<br/>
 
 
 <b>** attach collection file to test api using Post man **</b>
