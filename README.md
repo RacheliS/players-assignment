@@ -9,7 +9,8 @@ this application load data from csv resource file after the initialization of be
  <b>Project's technologies:<br/></b>
 •	Java 17 <br/>
 •	Maven 3.6.0 <br/>
-•	Spring Boot, Spring web, Spring Data Jpa, Spring data rest <br/>
+•	Spring Boot, Spring web, Spring Data Jpa, 
+Spring data rest,Spring Cloud <br/>
 •	Lombok.<br/>
 •	Mockito<br/>
 •	Junit <br/>
