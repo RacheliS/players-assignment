@@ -16,7 +16,7 @@ this application load data from csv resource file after the initialization of be
 •	H2database<br/>
 •	opencsv<br/>
 •	spring-eureka-server<br/>
-•	aop-spring-aspect<br/>
+•	spring-aop<br/>
 
 
 <br/>
