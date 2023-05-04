@@ -9,14 +9,15 @@ this application load data from csv resource file after the initialization of be
  <b>Project's technologies:<br/></b>
 •	Java 17 <br/>
 •	Maven 3.6.0 <br/>
-•	Spring Boot, Spring web, Spring Data Jpa <br/>
+•	Spring Boot, Spring web, Spring Data Jpa, Spring data rest <br/>
 •	Lombok.<br/>
 •	Mockito<br/>
 •	Junit <br/>
 •	H2database<br/>
 •	opencsv<br/>
 •	spring-eureka-server<br/>
-•	aop-aspect<br/>
+•	aop-spring-aspect<br/>
+
 
 <br/>
 <b>To run the application: </b><br/>
