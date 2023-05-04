@@ -15,6 +15,8 @@ this application load data from csv resource file after the initialization of be
 •	Junit <br/>
 •	H2database<br/>
 •	opencsv<br/>
+•	spring-eureka-server<br/>
+•	aop-aspect<br/>
 
 <br/>
 <b>To run the application: </b><br/>
@@ -40,6 +42,8 @@ this application load data from csv resource file after the initialization of be
    ```  {"timestamp":"2023-04-20T07:18:18.087+00:00","status":404,"error":"Not Found","path":"/payments/services/getPayment/12354"} ```
 <br/>
 <br/>
+3.http://localhost:8080/players?page=5&size=20
+
 <b>What's Next? </b><br/>
 • Run the Spring project in a containerized Java & Maven Docker environment.<br/>
 • Change db to Sql db like My Sql .<br/>
