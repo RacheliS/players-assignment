@@ -16,15 +16,13 @@ public class PlayerServiceImpl implements PlayerService {
     @Autowired
     public PlayerRepository playerRepository;
 
-    public ResponseEntity<List<Player>> getAllPlayers() {
-        List<Player> allPlayers = playerRepository.findAll();
-        return ResponseEntity.status(HttpStatus.OK).body(allPlayers);
+    public List<Player> getAllPlayers() {
+        return playerRepository.findAll();
     }
 
-    public ResponseEntity<Player> getPlayer(String playerID) {
-        Optional<Player> player = playerRepository.findById(playerID);
-        return player.map(value -> ResponseEntity.status(HttpStatus.OK).body(value)).orElseGet(()
-                -> ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+    public Player getPlayer(String playerID) {
+        Optional<Player> byId = playerRepository.findById(playerID);
+        return byId.orElse(null);
     }
 
 }

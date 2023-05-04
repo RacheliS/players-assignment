@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface PlayerService {
 
-    ResponseEntity<List<Player>> getAllPlayers();
-    ResponseEntity<Player> getPlayer(String playerID);
+    List<Player> getAllPlayers();
+    Player getPlayer(String playerID);
 
 }

@@ -1,7 +1,8 @@
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\repositoreis\PlayerRepository.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\services\PlayerLoaderService.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\controllers\PlayerRestController.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\models\Player.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\services\PlayerServiceImpl.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\PlayersApplication.java
-C:\Users\אמרוסי\Desktop\players\src\main\java\com\intuit\players\services\PlayerService.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\controllers\PlayerRestController.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\services\PlayerLoaderService.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\services\PlayerServiceImpl.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\PlayersApplication.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\aspect\LoggingAspect.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\models\Player.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\repositoreis\PlayerRepository.java
+C:\Users\אמרוסי\Downloads\players-assignment-main\src\main\java\com\intuit\players\services\PlayerService.java

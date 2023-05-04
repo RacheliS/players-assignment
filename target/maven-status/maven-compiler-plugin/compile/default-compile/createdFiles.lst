@@ -3,6 +3,7 @@ com\intuit\players\controllers\PlayerRestController.class
 com\intuit\players\services\PlayerServiceImpl.class
 com\intuit\players\PlayersApplication.class
 com\intuit\players\repositoreis\PlayerRepository.class
+com\intuit\players\aspect\LoggingAspect.class
 com\intuit\players\models\Player$PlayerBuilder.class
 com\intuit\players\models\Player.class
 com\intuit\players\services\PlayerLoaderService.class

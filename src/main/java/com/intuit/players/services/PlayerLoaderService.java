@@ -11,13 +11,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
 import java.util.Collections;
 import java.util.List;
 
-@Service
+@Component
 public class PlayerLoaderService {
 
     @Autowired
@@ -31,10 +32,11 @@ public class PlayerLoaderService {
     @PostConstruct
     public void importPlayers() {
         List<Player> players = buildCsvPlayerByColumnName();
-        if (!players.isEmpty()){
+        if (!players.isEmpty()) {
             playerRepository.saveAll(players);
             LOGGER.info("INFO:import CSV file success [ players count = " + players.size() + "]");
-        }else {
+        }
+        else {
             LOGGER.info("INFO:Empty CSV file");
         }
     }
